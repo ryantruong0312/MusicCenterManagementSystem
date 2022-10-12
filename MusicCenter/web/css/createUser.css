@@ -1,0 +1,167 @@
+body,
+.register {
+    background-color: #d3d3d3;
+    font-family: 'Space Mono', sans-serif;
+    color: #000;
+    font-size: 14px;
+    line-height: none;
+    font-weight: bold;
+}
+body{
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+.signup {
+    position: relative;
+    height: 730px;
+    width: 420px;
+    margin: 50px auto;
+    padding: 60px 60px;
+    background: url('../images/login_bg.jpg') no-repeat center center #505050;   
+    background-size: cover;
+    box-shadow: 0px 30px 60px -5px #000;
+}
+
+form {
+    padding-top: 60px;
+}
+
+.active {
+    margin-top: 20px;
+    margin-left: 30px;
+    border-bottom: 2px solid #000;
+}
+
+.nonactive {
+    margin-left: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.signup a {
+    padding-left: 12px;
+    font-size: 22px;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    font-weight: 100;
+    text-decoration: none;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    top: -85px;
+    margin-left: 20px;
+}
+
+.text {
+    border: none;
+    width: 89%;
+    padding: 10px 20px;
+    display: block;
+    height: 15px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid rgba(255, 255, 255, 0);
+    overflow: hidden;
+    margin-top: 15px;
+    transition: all 0.5s ease-in-out;
+}
+
+.text:focus {
+    outline: 0;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    background: rgba(0, 0, 0, 0);
+}
+
+.text:focus + span {
+    opacity: 0.6;
+}
+
+input[type="text"],
+input[type="password"] {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+input {
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+
+.register {
+    background-color: #edaf11;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 0px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+.register:hover {
+    background: #ed7c11;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+
+.register:focus {
+    outline: none;
+}
+
+.signup div.return a{
+    box-sizing: border-box;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    padding-top: 5px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 20px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+    text-align: center;
+}
+div.return{
+    background-color: #edaf11;
+    border-radius: 20px;
+    transition: all 0.5s ease-in-out;
+}
+div.return:hover {
+    background: #ed7c11;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+div.return a:visited{
+    color: #000;
+}
+
+.return:focus {
+    outline: none;
+}
+input.register{
+    font-size: 16px;
+}
+.error{
+    font-size: 14px;
+    padding-left: 20px;
+    color: #e4ff00;
+    margin-top: -20px;
+}
+
+span.noError{
+    position: relative;
+    top: -85px;
+}

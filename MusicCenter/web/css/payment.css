@@ -1,0 +1,33 @@
+body{
+    font-family: 'Space Mono', sans-serif;
+    color: #fff;
+    font-size: 16px;
+    background-color: #ffffff;
+    background-image: url(../images/background.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    background-color: #00b2ca;
+    padding: 20px;
+    width: 30%;
+    margin: 18vh auto;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+}
+
+div.conf-but{
+    text-align: center;
+}
+input[type="image"]{
+    max-width: 100px;
+}
+#hideValuesOnSelect{
+    display: none;
+    text-align: center;
+}
